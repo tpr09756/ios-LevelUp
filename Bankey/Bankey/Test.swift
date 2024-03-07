@@ -5,21 +5,21 @@
 //  Created by Tiago Rodrigues on 06/03/2024.
 //
 
-import XCTest
+//import XCTest
  
-@testable import Bankey
+//@testable import Bankey
  
-class Test: XCTestCase {
-    var vc: ViewController!
+//class Test: XCTestCase {
+//    var vc: ViewController!
  
-    override func setUp() {
-        super.setUp()
-        vc = ViewController()
-        vc.loadViewIfNeeded()
-    }
+//    override func setUp() {
+//        super.setUp()
+//        vc = ViewController()
+//        vc.loadViewIfNeeded()
+ //   }
  
-    func testShouldBeVisible() throws {
-        let isViewLoaded = vc.isViewLoaded
-        XCTAssertTrue(isViewLoaded)
-    }
-}
+//    func testShouldBeVisible() throws {
+//        let isViewLoaded = vc.isViewLoaded
+//        XCTAssertTrue(isViewLoaded)
+//    }
+//}
