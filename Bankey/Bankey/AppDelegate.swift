@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     private func registerForNotifications() {
-        NotificationCenter.default.addObserver(self, selector: #selector(didLogout()), name: .logout, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(didLogout), name: .logout, object: nil)
     }
     
     private func displayLogin() {
