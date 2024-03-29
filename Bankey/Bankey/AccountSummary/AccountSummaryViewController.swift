@@ -11,7 +11,7 @@ class AccountSummaryViewController: UIViewController {
     
     // Request Models
     var profile: Profile?
-    var Accounts: [Account] = []
+    var accounts: [Account] = []
     
     // View Models
     var headerViewModel = AccountSummaryHeaderView.ViewModel(welcomeMessage: "Welcome", name: "", date: Date())

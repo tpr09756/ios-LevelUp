@@ -15,6 +15,8 @@
 		2E08B8A62B98BAD0001A9DF0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E08B8A52B98BAD0001A9DF0 /* Test.swift */; };
 		2E25A71D2BB588AE00A7AE4B /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25A71C2BB588AE00A7AE4B /* Date+Utils.swift */; };
 		2E25A71F2BB589A700A7AE4B /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25A71E2BB589A700A7AE4B /* AccountSummaryViewController+Networking.swift */; };
+		2E25A7232BB6F96600A7AE4B /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25A7222BB6F96500A7AE4B /* ProfileTests.swift */; };
+		2E25A7252BB6FAAD00A7AE4B /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E25A7242BB6FAAD00A7AE4B /* AccountTests.swift */; };
 		2E2BB7052BB2C45100D0F0F2 /* Decimal+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB7042BB2C45100D0F0F2 /* Decimal+Utils.swift */; };
 		2E2BB7072BB2C49800D0F0F2 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB7062BB2C49800D0F0F2 /* CurrencyFormatter.swift */; };
 		2E2BB7162BB2CFCA00D0F0F2 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BB7152BB2CFCA00D0F0F2 /* CurrencyFormatterTests.swift */; };
@@ -54,6 +56,8 @@
 		2E08B8A52B98BAD0001A9DF0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		2E25A71C2BB588AE00A7AE4B /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 		2E25A71E2BB589A700A7AE4B /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
+		2E25A7222BB6F96500A7AE4B /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		2E25A7242BB6FAAD00A7AE4B /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		2E2BB7042BB2C45100D0F0F2 /* Decimal+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Utils.swift"; sourceTree = "<group>"; };
 		2E2BB7062BB2C49800D0F0F2 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		2E2BB70C2BB2CF4B00D0F0F2 /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,10 +149,28 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		2E2BB70D2BB2CF4B00D0F0F2 /* BankeyUnitTests */ = {
+		2E25A7202BB6F92F00A7AE4B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				2E2BB7152BB2CFCA00D0F0F2 /* CurrencyFormatterTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2E25A7212BB6F94000A7AE4B /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				2E25A7222BB6F96500A7AE4B /* ProfileTests.swift */,
+				2E25A7242BB6FAAD00A7AE4B /* AccountTests.swift */,
+			);
+			path = AccountSummary;
+			sourceTree = "<group>";
+		};
+		2E2BB70D2BB2CF4B00D0F0F2 /* BankeyUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E25A7212BB6F94000A7AE4B /* AccountSummary */,
+				2E25A7202BB6F92F00A7AE4B /* Utils */,
 			);
 			path = BankeyUnitTests;
 			sourceTree = "<group>";
@@ -342,6 +364,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E2BB7162BB2CFCA00D0F0F2 /* CurrencyFormatterTests.swift in Sources */,
+				2E25A7252BB6FAAD00A7AE4B /* AccountTests.swift in Sources */,
+				2E25A7232BB6F96600A7AE4B /* ProfileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
